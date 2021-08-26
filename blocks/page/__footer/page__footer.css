@@ -1,0 +1,30 @@
+.page__footer {
+  max-width: 1184px;
+  margin: 0 auto;
+  margin-top: 92px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__footer {
+    max-width: 928px;
+
+  }
+}
+@media screen and (max-width: 740px) {
+  .page__footer {
+    max-width: 720px;
+    min-width: 186px;
+    display: block;
+    margin-top: 64px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__footer {
+    margin-left: 16px;
+    margin-right: 118px;
+  }
+}
