@@ -5,7 +5,7 @@
   max-width: 1184px;
   padding-top: 92px;
   grid-template-columns: repeat(auto-fit, minmax(284px,284px));
-  grid-template-rows:repeat(3, 1fr);;
+  grid-template-rows:repeat(3, 1fr);
   grid-column-gap: 16px;
   grid-row-gap: 16px;
 }
