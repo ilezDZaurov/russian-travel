@@ -1,19 +1,19 @@
 .cover {
-  background-image: url(../../images/cover-trains.jpg);
-  display: flex;
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
+    background-image: url(../../images/cover-trains.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .cover::after {
-  content: "";
-  padding-top: calc(740 / 1184 * 100%);
+    content: "";
+    padding-top: calc(740 / 1184 * 100%);
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
+      max-width: 1024px;
   }
 }
 
