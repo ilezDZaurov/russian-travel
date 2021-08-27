@@ -6,6 +6,7 @@
 }
 @media screen and (max-width: 480px) {
   .places__paragraph:nth-child(2) {
-    margin-top: 25px;
+    margin-top: 32px;
   }
 }
+

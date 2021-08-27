@@ -29,3 +29,10 @@
     
   }
 }
+
+@media screen and (max-width: 480px) {
+  .places__paragraph:nth-child(1) {
+    margin-top: 32px;
+
+  }
+}

@@ -1,12 +1,6 @@
 .page__container {
 	width: 100%;
-	max-width: 1184px;
+	max-width: 1280px;
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
-	.page__container{
-		max-width: 984px;
-		
-	}
-}

@@ -1,29 +1,33 @@
 .intro__content {
-	margin: 0 auto;
+	margin-left: 148px;
 	margin-top: 92px;
-	max-width: 984px;
+	max-width: 690px;
 
 }
 
-@media all and (max-width: 1024px){
+@media screen and (max-width: 1024px){
 	.intro__content {
-		padding-left: 25px;
-		
-
+		margin-left: 48px;
+		margin-right: 286px;
 	}
 }
 
-@media all and (max-width: 1000px){
+@media screen and (max-width: 768px){
 	.intro__content {
 		max-width: 720px;
-
+    	margin-left: 24px;
+    	margin-right: 24px;
+    	margin-top: 88px;
 
 	}
 }
 
-@media all and (max-width: 320px){
+@media screen and (max-width: 320px){
 	.intro__content {
 		max-width: 288px;
+    	margin-left: 16px;
+   	 	margin-right: 16px;
+    	margin-top: 64px;
 
 	}
 }
