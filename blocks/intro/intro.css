@@ -1,4 +1,36 @@
 .intro {
-	
+	 display: flex;
+    flex-direction: column;
+    justify-content: center;   
     
 }
+
+@media screen and (max-width: 1024px){
+   .intro {	
+    	max-width: 920px;
+     
+      
+    }
+}
+@media screen and (max-width: 920px){
+   .intro {
+        max-width: 720px;
+        
+    }
+}
+@media screen and (max-width: 720px){
+   .intro {
+        max-width: 400px;
+        
+    }
+}
+
+
+@media screen and (max-width: 320px){
+   .intro {
+        max-width: 288px;
+
+    }
+}
+
+

@@ -5,7 +5,7 @@
 	line-height: 163%;
 }
 
-.places__paragraph:nth-child(2) {
+.places__paragraph:last-child {
   margin-top: 28px;
 }
 
@@ -13,6 +13,14 @@
   .places__paragraph {
     font-size: 16px;
     line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .places__paragraph {
+    margin: auto;
+    max-width: 480px;
+    
   }
 }
 
@@ -28,7 +36,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 490px) {
   .places__paragraph {
     margin: auto;
     max-width: 288px;

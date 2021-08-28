@@ -4,9 +4,4 @@
     line-height: 26px;
   }
 }
-@media screen and (max-width: 480px) {
-  .places__paragraph:nth-child(2) {
-    margin-top: 32px;
-  }
-}
 

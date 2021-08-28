@@ -12,9 +12,13 @@
     margin-left: 0;
 }
 
+.header__lang-link:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
 @media screen and (max-width: 325px) {
   .header__lang-link {
       font-size: 18px;
-      max-width: 22px;
+      
   }
 }

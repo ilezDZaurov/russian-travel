@@ -9,9 +9,15 @@
 @media screen and (max-width: 740px) {
   .footer__copyright {
     margin-top: 48px;
-    font-size: 14px;
     line-height: 14px;
     min-width: max-content;
     text-align: center;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    text-align: initial;
+    margin-left: 16px;
+  } 
 }
