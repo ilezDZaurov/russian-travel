@@ -1,8 +1,8 @@
 .places__paragraph {
-	margin: 0;
- 	font-weight: normal;
-	font-size: 18px;
-	line-height: 163%;
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
 }
 
 .places__paragraph:last-child {
