@@ -2,31 +2,5 @@
     max-width: 690px;
  }
 
- @media screen and (max-width: 1024px){
-    .page__intro {
-      margin-left: 48px;
-      margin-right: 286px;
-    }
-}
-
-@media screen and (max-width: 768px){
-   .page__intro {
-     max-width: 720px;
-     margin-left: 24px;
-     margin-right: 24px;
-     margin-top: 88px;
-
-    }
-}
-
-@media screen and (max-width: 320px){
-    .page__intro {
-      max-width: 288px;
-      margin-left: 16px;
-      margin-right: 16px;
-      margin-top: 64px;
-
-    }
-}
-
+ 
 
