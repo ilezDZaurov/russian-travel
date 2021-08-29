@@ -4,6 +4,7 @@
 	line-height: 76px;
 	margin: 0;
   }
+
  @media screen and (max-width: 930px) {
   .places__title {
     max-width: 340px;
@@ -11,6 +12,7 @@
     line-height: 46px;
   }
 }
+
 @media screen and (max-width: 624px) {
   .places__title {
     font-size: 32px;

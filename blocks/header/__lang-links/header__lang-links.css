@@ -1,9 +1,10 @@
 .header__lang-links {
-    display: flex;
-    padding-top: 46px;
-    padding-right: 48px;
-    box-sizing: border-box;
+  display: flex;
+  padding-top: 46px;
+  padding-right: 48px;
+  box-sizing: border-box;
 }
+
 @media screen and (max-width: 768px) {
   .header__lang-links {
     padding-right: 24px;

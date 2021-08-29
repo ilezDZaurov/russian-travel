@@ -5,20 +5,24 @@
   background-size: cover;
   display: flex;
 }
+
 .cover::after{
   content: "";
   padding-top: calc(740 / 1184 * 100%);
 }
+
 @media screen and (max-width: 1024px){
   .cover{
     max-width: 1024px;
   }
 }
+
 @media screen and (max-width: 768px){
   .cover{
     max-width: 768px;
   }
 }
+
 @media screen and (max-width: 320px){
   .cover{
     max-width: 320px;

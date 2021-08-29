@@ -4,6 +4,7 @@
   margin-left: 48px;
   margin-right: 48px;
 }
+
 @media screen and (max-width: 1024px) {
   .page__cover {
     margin-left: 0;
@@ -16,6 +17,7 @@
     margin-top: 90px;
   }
 }
+
 @media screen and (max-width: 320px) {
   .page__cover {
     margin-top: 66px;

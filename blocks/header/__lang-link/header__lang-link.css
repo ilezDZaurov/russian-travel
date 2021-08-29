@@ -1,15 +1,15 @@
 .header__lang-link {
-    margin-left: 18px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    list-style: none;
-    color: #ffffff;
-    text-decoration: none;
-  
+  margin-left: 18px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
 }
+
 .header__lang-link:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .header__lang-link:hover {
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 325px) {
   .header__lang-link {
-      font-size: 18px;
+    font-size: 18px;
       
   }
 }
